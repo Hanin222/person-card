@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(216, 216, 216);
+}
+
+.container {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+    background-color: rgb(216, 216, 216);
+    gap: 70px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 330px;
+    height: 600px;
+    background-color: rgb(8, 8, 24);
+    border: 1px solid rgb(236, 196, 108);
+    font-size: 30px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 45px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 5px 5px rgb(216, 41, 178);
+}
+
+.name {
+    /*display:inline-block ;*/
+    color: aliceblue;
+    margin-top: -45px;
+}
+
+.likes {
+    display: flex;
+    word-spacing: 50px;
+    font-size: 25px;
+    color: aliceblue;
+    margin-top: -170px;
+}
+
+.follow_btn {
+    background-color: rgb(8, 8, 24);
+    border: 3px rgb(216, 41, 178) solid;
+    color: aliceblue;
+    padding: 15px 72px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    margin-top: -60px;
+    font-size: 25px;
+    box-shadow: 0 0 3px 3px rgb(209, 124, 212);
+}
+
+.message_btn {
+    background-color: rgb(8, 8, 24);
+    border: 3px rgb(216, 41, 178) solid;
+    color: aliceblue;
+    padding: 15px 52px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 25px;
+    box-shadow: 0 0 3px 3px rgb(209, 124, 212);
+}
+
+.img_icon {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: -150px;
+    margin-bottom: 20px;
+
+}
+
+.insta {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 2px rgb(209, 124, 212);
+
+}
+
+.tweter {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 2px rgb(209, 124, 212);
+}
+
+.whatsup {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 2px rgb(209, 124, 212);
+}
+
+.linkedin {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 2px rgb(209, 124, 212);
+}
